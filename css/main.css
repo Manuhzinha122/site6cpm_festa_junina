@@ -1,0 +1,343 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: Skranji;
+}
+
+.topbar {
+    background-color: #083793;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: padding 0.3s ease, font-size 0.3s ease;
+}
+.topbar.shrink { 
+    padding: 20px 20px; 
+    font-size: 75%;
+}
+.topbar.shrink .logo { 
+    width: 70px;
+}
+
+.logo {
+    margin-right: 20px;
+    width: 100px;
+    height: auto;
+    transition: width 0.3s ease;
+}
+
+.title {
+    flex-grow: 1;
+    text-align: left;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 25px;
+    margin-right: 80px;
+}
+.button {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 1.65em;
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
+.button::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+.button:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+
+.v4_121 {
+  width: 100%;
+  height: 1991px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v4_122 {
+  width: 100%;
+  height: 234px;
+  background: rgba(60,67,240,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v4_126 {
+  width: 831px;
+  color: rgba(236,236,236,1);
+  position: absolute;
+  top: 70px;
+  left: 231px;
+  font-family: Marcellus;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.v4_127 {
+  width: 172px;
+  height: 176px;
+  background: url("../images/v4_127.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 21px;
+  left: 23px;
+  overflow: hidden;
+}
+.v4_128 {
+  width: 358px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 141px;
+  left: 231px;
+  font-family: League Spartan;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v4_129 {
+  width: 131px;
+  height: 100%;
+  background: rgba(60,67,240,1);
+  opacity: 1;
+  position: absolute;
+  top: 234px;
+  left: 0px;
+  overflow: hidden;
+}
+.v4_130 {
+  width: 594px;
+  height: 198px;
+  background: rgba(81,87,246,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1134px;
+  overflow: hidden;
+}
+.v4_131 {
+  width: 100%;
+  background: url("../images/v4_131.png");
+  opacity: 1;
+  position: absolute;
+  top: 291px;
+  left: 131px;
+  border: 2px solid rgba(0,0,0,1);
+}
+.v4_134 {
+  width: 322px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 324px;
+  left: 150px;
+  font-family: Preahvihear;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v4_136 {
+  width: 63px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 245px;
+  left: 208px;
+  font-family: Preahvihear;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v20_3 {
+  width: 190px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 245px;
+  left: 322px;
+  font-family: Preahvihear;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v7_2 {
+  width: 610px;
+  height: 518px;
+  background: url("../images/v7_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 401px;
+  left: 167px;
+  overflow: hidden;
+}
+.v7_3 {
+  width: 388px;
+  height: 349px;
+  background: url("../images/v7_3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 324px;
+  left: 1340px;
+  overflow: hidden;
+}
+.v20_4 {
+  width: 361px;
+  height: 317px;
+  background: url("../images/v20_4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 974px;
+  left: 1353px;
+  overflow: hidden;
+}
+.v7_4 {
+  width: 522px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 415px;
+  left: 790px;
+  font-family: Preahvihear;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v20_2 {
+  width: 897px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 710px;
+  left: 790px;
+  font-family: Preahvihear;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v20_5 {
+  width: 708px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 995px;
+  left: 218px;
+  font-family: Preahvihear;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v22_9 {
+  width: 717px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1105px;
+  left: 213px;
+  font-family: Preahvihear;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v22_10 {
+  width: 644px;
+  height: 342px;
+  background: url("../images/v22_10.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1230px;
+  left: 218px;
+  overflow: hidden;
+}
+.v22_12 {
+  width: 371px;
+  height: 372px;
+  background: url("../images/v22_12.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1029px;
+  left: 930px;
+  overflow: hidden;
+}
+.v22_13 {
+  width: 100%;
+  height: 406px;
+  background-color: #083793;
+  opacity: 1;
+  position: absolute;
+  top: 1700px;
+  left: 11px;
+  overflow: hidden;
+}
+.v22_15 {
+  width: 100%;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1767px;
+  left: 188px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Skranji;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v35_2 {
+  width: 100%;
+  height: 222px;
+  background: url("../images/v35_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1725px;
+  left: 83px;
+  overflow: hidden;
+}
